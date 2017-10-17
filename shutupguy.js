@@ -1,6 +1,6 @@
 var lock = false; // so we don't trigger shutUp() as we manipulate the dom in shutUp()
 
-var facebookStoryClass = ".userContentWrapper";
+var facebookStoryClass = ".fbUserStory";
 var shutUp = function(regex) {
     if (lock) {
         return;
